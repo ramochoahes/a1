@@ -8,10 +8,9 @@ list($rndquote, $author) = explode('-', $quote);
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>About Me</title>
 	<link rel="stylesheet" href="styles.css">
-	
 	<meta charset="UTF-8">
-
 </head>
 
 <body>
@@ -22,11 +21,8 @@ list($rndquote, $author) = explode('-', $quote);
 <h2>Introduction</h2>
 
 <p>
-Hi, my name is Ram Ochoa and I live in South Texas. I am currently working an a my masters degree in IT here at HES. If all goes as planned I'll be done by next summer. I have been a high school science teacher for the past 7 years and also dabble in real estate contruction. I have learned HTML/CSS/ and JS and am glad to be learning this big piece of the web application stack and learn php and back end development here in E-15. Have a great semester!
+Hi, my name is Ram Ochoa and I live in South Texas. I am currently working on a my masters degree in IT here at HES. If all goes as planned I'll be done by next summer. I have been a high school science teacher for the past 7 years and also dabble in real estate development. I have learned HTML/CSS/ and JS and am glad to be learning this big piece of the web application stack and learn php and back end development here in E-15. Have a great semester!
 </p>
-
-
-
 
 <h2>Random Quote</h2>
 <p>
