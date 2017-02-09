@@ -1,7 +1,7 @@
 <?php
-$lines = explode("\n", file_get_contents('quotes.txt'));
-$line = $lines[mt_rand(0, count($lines) - 1)];
-list($text, $author) = explode('|', $line);
+$corpus = explode("\n", file_get_contents('quotes.txt'));
+$quote = $corpus[rand(0, count($corpus) - 1)];
+list($rndquote, $author) = explode('-', $quote);
 ?>
 
 
@@ -18,16 +18,22 @@ list($text, $author) = explode('|', $line);
 
 <img src='/images/me.jpg' alt='me'>
 
+<h2>Introduction</h2>
+
 <p>
-Indtroduction. 
+Hi, my name is Ram Ochoa and I live in South Texas. I am currently working an a my masters degree in IT here at HES. If all goes as planned I'll be done by next summer. I have been a high school science teacher for the past 7 years and also dabble in real estate contruction. I have learned HTML/CSS/ and JS and am glad to be learning this big piece of the web application stack and learn php and back end development here in E-15. Have a great semester!
 </p>
 
+
+
+
 <h2>Random Quote</h2>
-		
-<blockquote class="text-center">
-		<p><?php echo $text; ?></p>
-		<footer><?php echo $author; ?></footer>
-</blockquote>
+<p>
+<?php echo $rndquote; ?>
+</p>
+<p>
+<?php echo $author; ?>
+</p>
 
 </body>
 </html>
